@@ -1,0 +1,21 @@
+.height{
+    height: 684px;
+    background-color: #FBD062;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    margin-bottom: 90px;
+
+}
+.bannerT{
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+}
+.bannerimg{
+    width: 100%;
+    height: 422px;
+    object-fit: cover;
+}

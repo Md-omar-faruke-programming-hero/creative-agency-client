@@ -1,0 +1,7 @@
+.service{
+    color: #7AB259;
+}
+.b:hover{
+    transform: scale(1.1);
+    transition: ease-in 1s;
+}
