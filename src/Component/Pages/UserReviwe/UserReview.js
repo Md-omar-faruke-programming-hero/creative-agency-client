@@ -18,7 +18,7 @@ const UserReview = () => {
             name,ocopation,review,img:user.photoURL
         }
 
-       fetch('http://localhost:5000/userReview',{
+       fetch('https://arcane-shelf-02442.herokuapp.com/userReview',{
            method:"post",
            headers:{
                "content-type":"application/json"

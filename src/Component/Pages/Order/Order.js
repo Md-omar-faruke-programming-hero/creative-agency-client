@@ -19,7 +19,7 @@ const Order = () => {
         formData.append("projectInfo",projectInfo)
         formData.append("image",image)
 
-        fetch('http://localhost:5000/userOrder',{
+        fetch('https://arcane-shelf-02442.herokuapp.com/userOrder',{
             method:"post",
             body: formData
         }).then(res=>res.json())

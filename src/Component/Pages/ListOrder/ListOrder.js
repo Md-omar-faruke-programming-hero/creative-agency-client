@@ -5,7 +5,7 @@ const ListOrder = () => {
     const{user}=useAuth()
     const[lists,setList]=useState([])
     useEffect(()=>{
-        fetch(`http://localhost:5000/userOrder?email=${user.email}`)
+        fetch(`https://arcane-shelf-02442.herokuapp.com/userOrder?email=${user.email}`)
         .then(res=>res.json())
         .then(data=>setList(data))
     },[user.email])
@@ -19,7 +19,7 @@ const ListOrder = () => {
     }else{
 
       const orderDelete=id=>{
-        fetch(`http://localhost:5000/userOrder/${id}`,{
+        fetch(`https://arcane-shelf-02442.herokuapp.com/userOrder/${id}`,{
           method:"delete"
         })
         .then(res=>res.json())
